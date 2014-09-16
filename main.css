@@ -1,0 +1,264 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0 auto;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+	line-height: 1.5em;
+	max-width: 960px;
+	background-color: #F5F5F5;
+	text-align: center;
+	font-family: georgia; serif;
+	font-size: 1em;
+}
+
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* MY CODE */
+
+
+a:link {
+	font-family: georgia, serif;
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+header {
+	display: block;
+	position: relative;
+	text-align: right;
+	padding-top: 15px;
+	font-size: .8em;
+}
+
+#logo {
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+nav {
+	border-top: 1px dotted black;
+	border-bottom: 1px dotted black;
+	padding-bottom: 15px;
+	padding-top: 15px;
+	margin-bottom: 20px;
+}
+
+nav a {
+	display: inline-block;
+	padding-left: 50px;
+	padding-right: 50px;
+	border-right: 1px solid black;
+	border-left: 1px solid black;
+}
+
+h1 {
+	font-size: 3em;
+	line-height: 1.2em;
+	font-family: Georgia, serif;
+	padding-bottom: 10px;
+	padding-left: 40px;
+	padding-right: 30px;
+
+}
+
+#header {
+	display: inline-block;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	background: white;
+	border-top: 1px dotted black;
+	border-bottom: 1px dotted black;
+	text-align: left;
+}
+
+.mainsubhead {
+	display: block;
+	padding-left: 40px;
+	padding-right: 30px;
+}
+
+h3 {
+	font-size: 1.5em;
+	font-weight: bold;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.subsection {
+	position: relative;
+	width: 960px;
+	display: block;
+	position: relative;
+	margin-bottom: 25px; 
+}
+
+#leftsubsection {
+	position: relative;
+	display: inline-block;
+	left: 0;
+	width: 300px;
+	border-top: 1px dotted black;
+	border-bottom: 1px dotted black;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: white;
+	margin-right: 25px;
+}
+
+#leftsubsection h3 {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+#leftsubsection p {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+#centersubsection {
+	position: relative;
+	display: inline-block;
+	width: 300px;
+	border-top: 1px dotted black;
+	border-bottom: 1px dotted black;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: white;
+	margin-right: 25px;
+}
+
+#centersubsection h3 {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+#centersubsection p {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+#rightsubsection {
+	position: relative;
+	display: inline-block;
+	right: 0;
+	width: 300px;
+	border-top: 1px dotted black;
+	border-bottom: 1px dotted black;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: white;
+}
+
+#rightsubsection h3 {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+#rightsubsection p {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.subsectionbutton {
+	width: 125px;
+	height: 30px;
+	background: black;
+	border-radius: 5px;
+	margin-top: 15px;
+	text-align: center;
+}
+
+.subsectionbutton a {
+	color: white;
+}
+
+footer {
+	display: block;
+	position: absolute;
+	border-top: 1px dotted black;
+	background-color: #DEDEDE;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: 960px;
+}
+
+#footerlogo {
+	position: relative;
+	display: inline-block;
+	text-align: left;
+	left: 0;
+	padding-left: 15px;
+	padding-top: 10px;
+	padding-right: 10px;
+}
+
+#socialicons {
+	position: relative;
+	display: inline-block;
+	text-align: right;
+	right: 0;
+	padding-left: 10px;
+}
+
+#footercontact {
+	position: relative;
+	padding-top: 15px;
+	font-size: 80%;
+}
+
+
+
